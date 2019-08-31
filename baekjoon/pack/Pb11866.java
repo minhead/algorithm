@@ -5,7 +5,7 @@
 //예를 들어 (7, 3)-조세퍼스 순열은 <3, 6, 2, 7, 5, 1, 4>이다.
 //N과 K가 주어지면 (N, K)-조세퍼스 순열을 구하는 프로그램을 작성하시오.
 
-package baekjoon;
+package pack;
 
 import java.io.BufferedReader;
 import java.io.IOException;

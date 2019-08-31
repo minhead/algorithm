@@ -9,7 +9,7 @@
 //출력
 //첫째 줄부터 앞에서부터 줄을 세운 결과를 출력한다. 답이 여러 가지인 경우에는 아무거나 출력한다.
 
-package baekjoon;
+package pack;
 
 import java.io.BufferedReader;
 import java.io.IOException;
