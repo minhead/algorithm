@@ -43,11 +43,11 @@ public class Geo_02 {
 		int x2 = (int)1e9+1;
 		int y2 = y1+1;
 		int ret = 0;
-		for(int i=1; i<=N;i++) {
-			int j = i%N+1;
-			if(is_cross(x1,y1,x2,y2,X[i],Y[i],X[j],Y[j])) //ij선과 pq선이 교차하는지 화긴
-				ret++;
-		}
+//		for(int i=1; i<=N;i++) {
+//			int j = i%N+1;
+//			if(is_cross(x1,y1,x2,y2,X[i],Y[i],X[j],Y[j])) //ij선과 pq선이 교차하는지 화긴
+//				ret++;
+//		}
 		if(ret%2==1) {
 			return true;
 		}else {

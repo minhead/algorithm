@@ -14,7 +14,7 @@ package smart_learning;
 import java.util.Arrays;
 import java.util.Comparator;
 
-static class Point{
+class Point{
 	int idx;
 	int x,y;
 	public Point(int idx,int x,int y) {
@@ -49,8 +49,15 @@ public class Geo_ClosestDistance {
 		Point[] xPoints = new Point[n];
 		System.arraycopy(points, 0, xPoints, 0, n);
 		Arrays.sort(xPoints, new Comparator<Point>() {
+
+			@Override
+			public int compare(Point o1, Point o2) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
 			
 		});
+		return n;
 		
 	}
 	public static void main(String[] args) {
