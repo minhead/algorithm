@@ -7,6 +7,7 @@
 	<classpathentry kind="src" path="dp"/>
 	<classpathentry kind="src" path="smart_learning"/>
 	<classpathentry kind="src" path="tree"/>
+	<classpathentry excluding="graph/|baekjoon/|data_structure/|dijkstra/|dp/|smart_learning/|tree/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
