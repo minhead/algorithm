@@ -7,9 +7,10 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-class Edge{
+class Edge {
 	int end;
 	int value;
+
 	Edge(int end, int value) {
 		// TODO Auto-generated constructor stub
 		this.end = end;
@@ -17,16 +18,18 @@ class Edge{
 	}
 }
 
-
 //거의 최단경로
 public class Pb5719 {
 	static int N, M;
 	static int S, D, u, v, p;
-	static int[] first ;
+	static int[] first;
 	static boolean[] visited;
 	static ArrayList<ArrayList<node>> list ;
-	static int stoi(String s) {return Integer.parseInt(s);}
-	
+
+	static int stoi(String s) {
+		return Integer.parseInt(s);
+	}
+
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st ;

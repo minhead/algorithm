@@ -8,13 +8,18 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-class Edge{
+class Edge implements Comparable<Edge>{
 	int end;
 	int value;
 	
 	Edge(int end,int value){
 		this.end = end;
 		this.value = value;
+	}
+	@Override
+	public int compareTo(Edge o) {
+		// TODO Auto-generated method stub
+		return this.value - o.value;
 	}
 }
 
@@ -35,7 +40,7 @@ public class Baek1753 {
 		ArrayList<Edge>[] list =  new ArrayList [vertex +1];
 		for(int i = 0; i<= vertex; i++) {
 			list[i] = new ArrayList<Edge>();
-			
+			distance[i] = 100;
 		}
 		
 		for(int i =0; i< edge; i++) {
@@ -60,6 +65,14 @@ public class Baek1753 {
 				}
 			}
 		}
+		for(int i = 1;i<=vertex;i++) {
+			if(distance[i]==100) {
+				System.out.println("INF");
+				continue;
+			}
+			System.out.println(distance[i]);
+		}
+		
 	}
 
 }
