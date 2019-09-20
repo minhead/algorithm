@@ -3,7 +3,6 @@
 	<classpathentry kind="src" path="graph"/>
 	<classpathentry kind="src" path="baekjoon"/>
 	<classpathentry kind="src" path="data_structure"/>
-	<classpathentry kind="src" path="dijkstra"/>
 	<classpathentry kind="src" path="dp"/>
 	<classpathentry kind="src" path="smart_learning"/>
 	<classpathentry kind="src" path="tree"/>
