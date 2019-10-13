@@ -1,6 +1,7 @@
 package pretest;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
@@ -29,13 +30,12 @@ import java.util.StringTokenizer;
 //작성하라.
 public class P0068_Odd {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub	
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		StringTokenizer st;
 		for(int test_case = 1; test_case <=T; test_case++) {
-			
 		}
 
 	}
